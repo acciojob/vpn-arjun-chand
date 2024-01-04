@@ -7,7 +7,7 @@ import java.util.List;
 @Entity
 @Table(name = "serviceProvider")
 public class ServiceProvider {
-    
+
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private int id;
@@ -88,4 +88,4 @@ public class ServiceProvider {
             this.connectionList = connectionList;
         }
     }
-}
+
